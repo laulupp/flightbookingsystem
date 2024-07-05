@@ -1,0 +1,33 @@
+@import url('../globals.css');
+
+.error-message {
+    color: var(--error-color, red);
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Airport listing styles */
+.airportList {
+    width: 100%;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.airportItem {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.airportItem p {
+    margin: 5px 10px;
+}
+
+.editForm {
+    margin-top: 20px;
+    border-top: 2px dashed #ccc;
+    padding-top: 20px;
+}

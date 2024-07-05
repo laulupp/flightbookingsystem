@@ -1,0 +1,21 @@
+@import url('../globals.css');
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--background-color, #f0f0f0);
+}
+
+.error-message {
+    text-align: center;
+    color: var(--color-red, red);
+}
+
+.formTitle {
+    text-align: center;
+    color: var(--primary-color, #333);
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}

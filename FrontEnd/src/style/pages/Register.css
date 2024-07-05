@@ -1,0 +1,30 @@
+@import url('../globals.css');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--background-color, #f0f0f0);
+}
+
+.error-message {
+    text-align: center;
+    color: var(--color-red, red);
+    margin-top: 10px;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.formTitle {
+    text-align: center;
+    color: var(--primary-color, #333);
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}

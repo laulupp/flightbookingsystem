@@ -1,0 +1,16 @@
+.formTitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.companyList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.companyItem {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+}

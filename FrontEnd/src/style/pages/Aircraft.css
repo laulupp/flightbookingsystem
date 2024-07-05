@@ -1,0 +1,30 @@
+.aircraftCard {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.formTitle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.editForm {
+    margin-top: 20px;
+    padding: 20px;
+    border-top: 2px solid #eee;
+}

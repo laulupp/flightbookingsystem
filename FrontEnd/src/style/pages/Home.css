@@ -1,0 +1,21 @@
+@import url('../globals.css');
+
+.text-box {
+    margin-top: 30vh;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--primary-color, #333);
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    color: var(--color-dark, #025);
+    margin-top: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--text-color, #666);
+}
